@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top:hover {
   color: #fff;
   background: #f49389;
-  transition: background 0.2s ease-in-out;
+  transition: background0.2s ease-in-out;
 }
 
 /*--------------------------------------------------------------
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  background: url("../img/loading.png");
+  background: url("../img/loading.png") no-repeat;
 /*  border: 6px solid #f49389;
   border-top-color: #fff;
   border-bottom-color: #fff; 
@@ -407,7 +407,7 @@ section {
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
-.facts .count-box {
+/*.facts .count-box {
   padding: 30px 30px 25px 30px;
   margin-top: 30px;
   width: 100%;
@@ -480,7 +480,7 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
-.resume .resume-title {
+/*.resume .resume-title {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
@@ -697,7 +697,7 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+/*.services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
@@ -830,7 +830,7 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials .section-header {
+/*.testimonials .section-header {
   margin-bottom: 40px;
 }
 
@@ -908,7 +908,7 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact .info {
+/*.contact .info {
   width: 100%;
   background: #fff;
 }
