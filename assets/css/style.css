@@ -10,6 +10,9 @@
 --------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
+html{cursor: url("../img/favicon.png"), auto}
+a{cursor: url("../img/favicon.png"), auto}
+
 body {
   font-family: 'Noto Sans KR', sans-serif;
   color: #333;
@@ -78,10 +81,11 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #f49389;
+  background: url("../img/loading.png");
+/*  border: 6px solid #f49389;
   border-top-color: #fff;
-  border-bottom-color: #fff;
-  border-radius: 50%;
+  border-bottom-color: #fff; 
+  border-radius: 50%; */
   width: 60px;
   height: 60px;
   -webkit-animation: animate-preloader 1s linear infinite;
